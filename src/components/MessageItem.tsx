@@ -52,6 +52,7 @@ export default ({ role, message }: Props) => {
       ></div>
       <div
         class="message prose text-slate break-words overflow-hidden"
+        style="width: 100%;max-width: 100%;"
         innerHTML={htmlString()}
       />
       <Clipboard
